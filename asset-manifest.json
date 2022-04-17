@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/partnext/static/css/main.fbda6ff0.css",
+    "main.js": "/partnext/static/js/main.f0bd5ed5.js",
+    "static/media/hero.png": "/partnext/static/media/hero.c9e38ddf55546245b008.png",
+    "static/media/bootstrap-icons.woff?": "/partnext/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/partnext/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/app.png": "/partnext/static/media/app.0bf3d2663fb140e86719.png",
+    "static/media/person-3.png": "/partnext/static/media/person-3.93cff30affb512ed0200.png",
+    "static/media/person-1.png": "/partnext/static/media/person-1.8447f7512c2371b9cf6e.png",
+    "static/media/person-6.png": "/partnext/static/media/person-6.10405490eb62cb4a93f2.png",
+    "static/media/person-4.png": "/partnext/static/media/person-4.413c8cc7aba4a59cd2be.png",
+    "static/media/person-2.png": "/partnext/static/media/person-2.0176a361b9b86d567704.png",
+    "static/media/person-5.png": "/partnext/static/media/person-5.46c4a7b5330b37883518.png",
+    "index.html": "/partnext/index.html",
+    "main.fbda6ff0.css.map": "/partnext/static/css/main.fbda6ff0.css.map",
+    "main.f0bd5ed5.js.map": "/partnext/static/js/main.f0bd5ed5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbda6ff0.css",
+    "static/js/main.f0bd5ed5.js"
+  ]
+}
