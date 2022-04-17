@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+:root {
+    --title-color: #018AD9;
+    --text-color: #0C3F72;
+    --primary-color: linear-gradient(172.12deg, #0079D4 8.53%, #00C2EB 69.3%);
+    --orange-color: linear-gradient(90deg, #FFAB4A -0.09%, #FFD833 177.22%);
+    --green-color: linear-gradient(61.88deg, #00ECB9 16.76%, #27C3C6 81.17%);
+}
+
+body{
+  font-family: 'Dongle', sans-serif !important;
+  font-size: 30px !important;
+  background-color: rgba(230, 230, 230, 0.30) !important;
+  height: 4000px;
+}
+
+.title{
+  font-size: 70px !important;
+  color: var(--title-color);
+  line-height: 50px; 
+}
+.text{
+  color: var(--text-color);
+  line-height: 30px; 
+}
+
+.app{
+  position: relative;
+}
+.app #top{
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  border: 1px solid #fff;
+  background: var(--orange-color);
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+}
+.app #top i{
+  color: #fff;
+}

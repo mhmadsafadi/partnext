@@ -1,0 +1,47 @@
+.talk{
+    margin-top: 100px;
+    padding-top: 170px;
+    background: linear-gradient(90deg,#00ECB9,#00C2EB,#27C3C6);
+    background-size: 300% 300%;
+    animation: animate-bg 3s infinite ease-in-out alternate;
+    clip-path: polygon(0 200px, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 200px, 100% 0, 100% 100%, 0 100%);
+}
+.talk .talk-title{
+    color: #FFFFFF;
+    font-size: 65px !important;
+    line-height: 50px; 
+}
+
+
+@keyframes animate-bg {
+    0%{
+        background-position: 0 50%;
+        opacity: .7;
+    }
+    50%{
+        background-position: 100% 50%;
+        opacity: 1;
+    }
+    100%{
+        background-position: 0 50%;
+        opacity: .8;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .talk{
+        padding-top: 150px;
+        clip-path: polygon(0 130px, 100% 0, 100% 100%, 0 100%);
+        -webkit-clip-path: polygon(0 130px, 100% 0, 100% 100%, 0 100%);
+    }
+}
+@media (max-width: 768px) {
+    .talk{
+        padding-top: 100px;
+        clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%);
+        -webkit-clip-path: polygon(0 80px, 100% 0, 100% 100%, 0 100%);
+    }
+}

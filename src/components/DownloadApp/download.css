@@ -1,0 +1,29 @@
+.download-div h3 {
+  color: var(--text-color);
+  font-weight: bold;
+}
+.download-div button {
+  background: var(--primary-color);
+  color: #fff;
+  width: 222px;
+  height: 50px;
+  border-radius: 15px;
+  border: 0;
+  font-family: sans-serif !important;
+  font-size: 16px;
+  transition: all .3s ease-in-out !important;
+}
+.download-div i {
+  color: #fff;
+  font-size: 22px;
+  margin-right: 7px;
+}
+.download-div i.bi-play-fill {
+  font-size: 25px;
+}
+.download-div button:hover {
+    color: #fff;
+    box-shadow: 0 3px 7px rgba(200, 200, 200, 0.5);
+    transform: translateY(-4px);
+    background: var(--orange-color);
+}

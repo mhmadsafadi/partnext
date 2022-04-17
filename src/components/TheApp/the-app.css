@@ -1,0 +1,278 @@
+.the-app{
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+.the-app::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ABEDFB;
+    right: 0;
+    left: 0;
+    top: 0;
+    transform: skewY(-8deg);
+    z-index: -1;
+    animation: waving 5s ease-in-out infinite alternate;
+}
+
+.the-app .content .app-box{
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: left;
+    padding: 10px;
+    line-height: 30px;
+}
+.the-app .content .app-box .bg-icon{
+    background: var(--orange-color);
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+.the-app .content .app-box .bg-icon img{
+    margin: auto;
+}
+
+.the-app .app-img{
+    width: 300px;
+    position: absolute;
+    bottom: -140px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+/* content-two ----------------------------------------*/
+.content-two{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+.content-two .p-1{
+    position: absolute;
+    top: -150px;
+    left: -160px;
+}
+.content-two .p-2{
+    position: absolute;
+    top: -70px;
+    right: -130px;
+}
+.content-two .p-3{
+    position: absolute;
+    top: 80px;
+    left: -240px;
+}
+.content-two .p-4{
+    position: absolute;
+    top: 100px;
+    right: -240px;
+}
+.content-two .p-5{
+    position: absolute;
+    top: 250px;
+    left: -150px;
+}
+.content-two .p-6{
+    position: absolute;
+    top: 250px;
+    right: -100px;
+}
+@media  (max-width: 992px) {
+    .content-two img{
+        overflow: hidden;
+    }
+    .content-two .p-1{
+        position: absolute;
+        top: -127px;
+        left: 0;
+        width: 90px;
+    }
+    .content-two .p-2{
+        position: absolute;
+        top: -99px;
+        right: 0;
+        width: 105px;
+    }
+    .content-two .p-3{
+        position: absolute;
+        top: -80px;
+        left: 296px;
+    }
+
+    .content-two{
+        width: 100%;
+    }
+    .the-app .app-img{
+        width: 200px;
+        position: absolute;
+        bottom: -90px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}
+@media  (max-width: 1200px) {
+    .content-two .p-3{
+        position: absolute;
+        top: 80px;
+        left: -200px;
+    }
+    .content-two .p-4{
+        position: absolute;
+        top: 100px;
+        right: -160px;
+    }
+}
+@media  (min-width: 1200px) and (max-width: 1300px){
+    .content-two .p-4{
+        position: absolute;
+        top: 100px;
+        right: -200px;
+    }
+}
+@media  (max-width: 992px) {
+    .content-two .p-1{
+        position: absolute;
+        top: -127px;
+        left: 0;
+        width: 90px;
+    }
+    .content-two .p-2{
+        position: absolute;
+        top: -128px;
+        right: 0;
+        width: 105px;
+    }
+    .content-two .p-3{
+        position: absolute;
+        top: -80px;
+        left: 307px;
+        width: 86px;
+    }
+    .content-two .p-4{
+        position: absolute;
+        top: 259px;
+        right: 271px;
+        width: 134px;
+    }
+    .content-two .p-5{
+        position: absolute;
+        top: 301px;
+        left: 0;
+        width: 180px;
+    }
+    .content-two .p-6{
+        position: absolute;
+        top: 313px;
+        right: 0;
+        width: 100px;
+    }
+
+    .content-two{
+        width: 100%;
+    }
+    .the-app .app-img{
+        width: 200px;
+        position: absolute;
+        bottom: -90px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}
+@media  (max-width: 768px) {
+    .content-two .p-1{
+        position: absolute;
+        top: -127px;
+        left: 0;
+        width: 90px;
+    }
+    .content-two .p-2{
+        position: absolute;
+        top: -128px;
+        right: 0;
+        width: 105px;
+    }
+    .content-two .p-3{
+        position: absolute;
+        top: -80px;
+        left: 205px;
+        width: 86px;
+    }
+    .content-two .p-4{
+        position: absolute;
+        top: 339px;
+        right: 186px;
+        width: 119px;
+    }
+    .content-two .p-5{
+        position: absolute;
+        top: 301px;
+        left: 0;
+        width: 180px;
+    }
+    .content-two .p-6{
+        position: absolute;
+        top: 327px;
+        right: 0;
+        width: 81px;
+    }
+}
+@media  (max-width: 576px){
+    .the-app{
+        padding-bottom: 250px;
+    }
+    .content-two p.mt-5{
+        margin-top: 10rem !important;
+    }
+    .the-app .content .app-box .text{
+        font-size: 25px;
+    }
+    .content-two .p-1{
+        position: absolute;
+        top: -168px;
+        left: 32px;
+        width: 74px;
+    }
+    .content-two .p-2{
+        position: absolute;
+        top: -186px;
+        right: 12px;
+        width: 97px;
+    }
+    .content-two .p-3{
+        position: absolute;
+        top: -112px;
+        left: 140px;
+        width: 86px;
+    }
+    .content-two .p-4{
+        position: absolute;
+        top: 236px;
+        right: 140px;
+        width: 99px;
+    }
+    .content-two .p-5{
+        position: absolute;
+        top: 127px;
+        left: -21px;
+        width: 168px;
+    }
+    .content-two .p-6{
+        position: absolute;
+        top: 184px;
+        right: 27px;
+        width: 76px;
+    }
+}
+
+
+@keyframes waving {
+    from{
+        transform: skewY(-8deg);
+    }
+    to{
+        transform: skewY(-4deg);
+    }
+}

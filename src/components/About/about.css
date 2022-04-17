@@ -1,0 +1,70 @@
+.mobile-col{
+    position: relative;
+}
+
+.mobile-col .top-circle{
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    background: linear-gradient(90deg, #FFAB4A -0.09%, #FFD833 177.22%);
+    border-radius: 50%;
+    right: 0;
+    top: -150px;
+    z-index: -1;
+    animation: move 6s ease-in-out infinite alternate;
+}
+.mobile-col .center-circle{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(172.12deg, #0079D4 8.53%, #00C2EB 69.3%);
+    border-radius: 50%;
+    right:0;
+    left:0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+    animation: move 3s ease-in-out infinite alternate;
+}
+
+
+@media (max-width: 992px) {
+    .mobile-col .center-circle{
+        width: 550px;
+        height: 550px;
+        top: 180px;
+        animation: move 4s ease-in-out infinite alternate;
+    }
+}
+@media (max-width: 768px) {
+    .mobile-col .top-circle{
+        position: absolute;
+        width: 280px;
+        height: 280px;
+        right: 10px;
+        top: -100px;
+    }
+    .mobile-col .center-circle{
+        max-width: 500px;
+        max-height: 500px;
+        top: 180px;
+        animation: move 5s ease-in-out infinite alternate;
+    }
+}
+@media (max-width: 520px) {
+    .mobile-col .center-circle{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 180px;
+        animation: none;
+    }
+}
+@keyframes move {
+    from{
+        transform: scale(.8);
+    }
+    to{
+        transform: scale(1);
+    }
+}

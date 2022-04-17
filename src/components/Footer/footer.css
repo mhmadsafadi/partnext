@@ -1,0 +1,15 @@
+footer img{
+    width: 200px;
+}
+footer .text{
+    font-size: 27px;
+}
+footer .nav-link {
+    color: var(--text-color) !important;
+    text-decoration: underline !important;
+    font-size: 27px !important;
+}
+footer .nav-link:hover {
+    color: var(--title-color) !important;
+    text-decoration: none;
+}
