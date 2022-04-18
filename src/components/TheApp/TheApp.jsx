@@ -33,7 +33,7 @@ const TheApp = () => {
             </p>
           </motion.div>
 
-          <motion.div className="row justify-content-evenly gap-3 my-5" variants={appBoxAnimation} animate={controls} transition={{delay:0.3, stiffness:5000}}>
+          <motion.div className="row justify-content-evenly gap-3 my-3 my-lg-5" variants={appBoxAnimation} animate={controls} transition={{delay:0.3, stiffness:5000}}>
             <Col lg="4">
               <div className="shadow app-box d-flex align-items-center gap-3">
                 <div className="bg-icon d-flex align-items-center">
@@ -57,7 +57,7 @@ const TheApp = () => {
             </Col>
           </motion.div>
 
-          <motion.div className="row justify-content-between gap-3 my-5" variants={appBoxAnimation} animate={controls} transition={{delay:0.4, stiffness:5000}}>
+          <motion.div className="row justify-content-between gap-3 my-3 my-lg-5" variants={appBoxAnimation} animate={controls} transition={{delay:0.4, stiffness:5000}}>
             <Col lg="4">
               <div className="shadow app-box d-flex align-items-center gap-3">
                 <div className="bg-icon d-flex align-items-center">
